@@ -1,2 +1,6 @@
-# Configuración de Build para Vercel
-buildCommand = "npm run build"
+{
+	"buildCommand": "npm run build",
+	"installCommand": "npm install",
+	"devCommand": "next dev",
+	"framework": "nextjs"
+}
